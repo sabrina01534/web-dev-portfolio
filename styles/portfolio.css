@@ -1,0 +1,117 @@
+
+.open-sans-normal> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <400px>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.secondary-background{
+    background-color: bisque;
+}
+.text-primary{
+    color: aquamarine;
+}
+.dark-2{
+    color: rgb(7, 129, 237);
+}
+.btn-primary {
+    color: aquamarine;
+    font-weight: bold;
+    color: rgb(247, 5, 5);
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.section-description{
+    font-size: 18px;
+    color: blueviolet;
+}
+.text-center{
+    text-align: center;
+
+}
+.header{
+    background-image: url(url(../image/nature - Copy.jpg))
+    background-repeat:no-repeat;
+    background-position: top left,bottom right;
+}
+
+
+/*Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+.nav-title {
+    font-weight: 800px;
+    font-size: 45px;
+   
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 20px;
+   
+}
+nav li a {
+    text-decoration: none;
+}
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 800px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.about{
+    border-radius: 10px
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.about-items{
+    display:flex;
+    justify-content: space-around;
+}
+.item-desciption{
+    font-weight: 600px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px black;
+}
